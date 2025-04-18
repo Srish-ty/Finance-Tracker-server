@@ -1,6 +1,6 @@
 import Transaction from "../models/Transaction.js";
 
-// @desc Get all transactions
+// list all trans
 export const getTransactions = async (req, res) => {
   try {
     const transactions = await Transaction.find().sort({ date: -1 });
@@ -10,7 +10,7 @@ export const getTransactions = async (req, res) => {
   }
 };
 
-// @desc Add a new transaction
+// create transac
 export const addTransaction = async (req, res) => {
   try {
     const { amount, description, date, category } = req.body;
@@ -33,7 +33,7 @@ export const addTransaction = async (req, res) => {
   }
 };
 
-// @desc Delete a transaction
+// del trans
 export const deleteTransaction = async (req, res) => {
   try {
     const { id } = req.params;
@@ -44,7 +44,6 @@ export const deleteTransaction = async (req, res) => {
   }
 };
 
-// @desc Update a transaction
 export const updateTransaction = async (req, res) => {
   try {
     const { id } = req.params;
