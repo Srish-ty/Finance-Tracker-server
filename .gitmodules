@@ -1,0 +1,3 @@
+[submodule "finance-visualizer-frontend"]
+	path = finance-visualizer-frontend
+	url = https://github.com/Srish-ty/Finance-Visualizer-Frontend.git
