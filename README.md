@@ -37,7 +37,7 @@ A simple and modern full-stack web application to **track your personal finances
 /Finance-Tracker-server
 ├── config/
 ├── controllers/
-├── finance-visualizer-frontend/ (Next.js app as submodule)
+├── finance-visualizer-client/ (Next.js app as submodule)
 ├── models/
 ├── routes/
 ├── .env)
@@ -85,12 +85,12 @@ The server will be running on: `http://localhost:5000/api`
 
 ## 💻 Frontend Setup
 
-The frontend is inside the `finance-visualizer-frontend/` submodule.
+The frontend is inside the `finance-visualizer-client/` submodule.
 
 ### 1. Navigate to Frontend Folder
 
 ```bash
-cd finance-visualizer-frontend
+cd finance-visualizer-client
 ```
 
 ### 2. Install Dependencies
