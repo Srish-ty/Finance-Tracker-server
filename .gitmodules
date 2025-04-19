@@ -1,3 +1,7 @@
 [submodule "finance-visualizer-frontend"]
 	path = finance-visualizer-frontend
 	url = https://github.com/Srish-ty/Finance-Visualizer-Frontend.git
+[submodule "finance-visualizer-client"]
+	path = finance-visualizer-client
+	url = https://github.com/Srish-ty/finance-tracker-client-app.git
+	branch = main
